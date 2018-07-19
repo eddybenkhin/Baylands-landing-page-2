@@ -1,28 +1,107 @@
-.App {
-  text-align: center;
+
+html {
+	height: 135%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(black, #93d7ff);
+	color: #007bff;
+	margin: 0;
+	padding: 0;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+
+footer {
+	background: #111;
+	color: #007bff;
+	font-family: Quicksand;
+	bottom: 5%;
+	position: absolute;
+
 }
 
-.App-title {
-  font-size: 1.5em;
+section {
+  position: absolute;
+	font-family: Quicksand;
+	font-size: 20px;
+	color: white;
+	right: 5%;
+	left: 5%;
+
 }
 
-.App-intro {
-  font-size: large;
+section h2 {
+	font-family: Quicksand;
+	font-style: italic;
+	font-weight: 100100;
+	color: white;
+
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+header nav {
+	float: right;
+	margin-right: 10%;
+	font-family: Quicksand Bold;
+	font-size: 14px;
+	opacity: 1;
+}
+
+nav ul {
+	background: none;
+	margin: 0;
+
+
+}
+
+nav ul li {
+	background: none;
+	color: #007bff;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+
+
+
+.secondary {
+	background: #222;
+	color: #007bff;
+}
+
+.avoidHeader {
+	position: absolute;
+	top: 50%;
+}
+
+
+
+@font-face {
+	font-family: 'Quicksand';
+	src: url(Fonts/Quicksand_Book.otf);
+	font-style: normal;
+	font-weight: 100;
+
+}
+
+@font-face {
+	font-family: 'Quicksand_Bold';
+	src: url(Fonts/Quicksand_Bold.otf);
+	font-style: normal;
+	font-weight: 100;
+
+}
+
+@font-face {
+	font-family: 'Quicksand_Bold_Oblique';
+	src: url(Fonts/Quicksand_Bold_Oblique.otf);
+	font-weight: 100;
+}
+
+.heading {
+	left: 50%;
 }
